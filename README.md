@@ -1,1 +1,2 @@
-# cordel
+# Cordel
+O design system do Credere
