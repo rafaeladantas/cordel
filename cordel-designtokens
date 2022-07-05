@@ -1,0 +1,485 @@
+{
+  "font-family": {
+    "primary": {
+      "description": "Primary",
+      "type": "fontFamilies",
+      "value": "Roboto"
+    }
+  },
+  "font-weight": {
+    "regular": {
+      "description": "Regular",
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "description": "Bold",
+      "value": "Bold",
+      "type": "fontWeights"
+    }
+  },
+  "font-size": {
+    "s": {
+      "description": "S",
+      "value": "12px",
+      "type": "fontSizes"
+    },
+    "m": {
+      "description": "M",
+      "value": "14px",
+      "type": "fontSizes"
+    },
+    "l": {
+      "description": "L",
+      "value": "16px",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "description": "XL",
+      "value": "18px",
+      "type": "fontSizes"
+    },
+    "xxl": {
+      "description": "XXL",
+      "value": "22px",
+      "type": "fontSizes"
+    },
+    "xxxl": {
+      "description": "XXXL",
+      "value": "26px",
+      "type": "fontSizes"
+    }
+  },
+  "box-shadow": {
+    "around-1": {
+      "description": "Around-1",
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "8px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.14)"
+      },
+      "type": "boxShadow"
+    },
+    "around-2": {
+      "description": "Around-2",
+      "value": {
+        "x": "0",
+        "y": "4px",
+        "blur": "12px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.06)"
+      },
+      "type": "boxShadow"
+    },
+    "around-3": {
+      "description": "Around-3",
+      "value": {
+        "x": "0",
+        "y": "8px",
+        "blur": "24px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "right-1": {
+      "description": "Right-1",
+      "value": {
+        "x": "8px",
+        "y": "0",
+        "blur": "16px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.08)"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "line-height": {
+    "s": {
+      "description": "S",
+      "value": "120%",
+      "type": "lineHeights"
+    },
+    "m": {
+      "description": "M",
+      "value": "140%",
+      "type": "lineHeights"
+    },
+    "l": {
+      "description": "L",
+      "value": "160%",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "description": "XL",
+      "value": "200%",
+      "type": "lineHeights"
+    }
+  },
+  "spacing": {
+    "mini": {
+      "value": "4px",
+      "description": "Mini",
+      "type": "spacing"
+    },
+    "nano": {
+      "description": "Nano",
+      "value": "6px",
+      "type": "spacing"
+    },
+    "micro": {
+      "description": "Micro",
+      "value": "8px",
+      "type": "spacing"
+    },
+    "xxxs": {
+      "description": "XXXS",
+      "value": "12px",
+      "type": "spacing"
+    },
+    "xxs": {
+      "description": "XXS",
+      "value": "14px",
+      "type": "spacing"
+    },
+    "xs": {
+      "description": "XS",
+      "value": "16px",
+      "type": "spacing"
+    },
+    "s": {
+      "description": "S",
+      "value": "18px",
+      "type": "spacing"
+    },
+    "m": {
+      "description": "M",
+      "value": "20px",
+      "type": "spacing"
+    },
+    "l": {
+      "description": "L",
+      "value": "22px",
+      "type": "spacing"
+    },
+    "xl": {
+      "description": "XL",
+      "value": "24px",
+      "type": "spacing"
+    },
+    "xxl": {
+      "description": "XXL",
+      "value": "26px",
+      "type": "spacing"
+    },
+    "xxxl": {
+      "description": "XXXL",
+      "value": "28px",
+      "type": "spacing"
+    },
+    "mega": {
+      "description": "Mega",
+      "value": "30px",
+      "type": "spacing"
+    },
+    "giga": {
+      "description": "Giga",
+      "value": "32px",
+      "type": "spacing"
+    },
+    "ultra": {
+      "description": "Ultra",
+      "value": "36px",
+      "type": "spacing"
+    },
+    "blaster": {
+      "value": "48px",
+      "description": "Blaster",
+      "type": "spacing"
+    },
+    "xxblaster": {
+      "value": "80px",
+      "description": "XX Blaster",
+      "type": "spacing"
+    }
+  },
+  "border-radius": {
+    "none": {
+      "description": "None",
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "small": {
+      "description": "Small",
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "decorative": {
+      "description": "Decorative",
+      "value": "10px",
+      "type": "borderRadius"
+    },
+    "circular": {
+      "description": "Circular",
+      "value": "50%",
+      "type": "borderRadius"
+    },
+    "pill": {
+      "description": "Pill",
+      "value": "9999px",
+      "type": "borderRadius"
+    }
+  },
+  "border-width": {
+    "none": {
+      "description": "None",
+      "value": "0",
+      "type": "borderWidth"
+    },
+    "soft": {
+      "description": "Soft",
+      "value": "1px",
+      "type": "borderWidth"
+    },
+    "thin": {
+      "description": "Thin",
+      "value": "2px",
+      "type": "borderWidth"
+    },
+    "heavy": {
+      "description": "Heavy",
+      "value": "3px",
+      "type": "borderWidth"
+    }
+  },
+  "color": {
+    "constant": {
+      "dark": {
+        "description": "Constant Dark",
+        "value": "#333333",
+        "type": "color"
+      },
+      "light": {
+        "description": "Constant Light",
+        "value": "#FFFFFF",
+        "type": "color"
+      }
+    },
+    "brand": {
+      "primary": {
+        "description": "Brand Primary",
+        "value": "#474E66",
+        "type": "color"
+      },
+      "light": {
+        "description": "Brand Light",
+        "value": "#8693BF",
+        "type": "color"
+      },
+      "medium": {
+        "description": "Brand Medium",
+        "value": "#6B7599",
+        "type": "color"
+      },
+      "dark": {
+        "description": "Brand Dark",
+        "value": "#242733",
+        "type": "color"
+      }
+    },
+    "highlight": {
+      "primary": {
+        "description": "Highlight Primary",
+        "value": "#3DCC9C",
+        "type": "color"
+      },
+      "light": {
+        "description": "Highlight Light",
+        "value": "#CDFFEF",
+        "type": "color"
+      },
+      "medium": {
+        "description": "Highlight Medium",
+        "value": "#A1E5CF",
+        "type": "color"
+      },
+      "dark": {
+        "description": "Highlight Dark",
+        "value": "#2E9975",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "primary": {
+        "description": "Neutral Primary",
+        "value": "#999999",
+        "type": "color"
+      },
+      "lighter": {
+        "description": "Neutral Lighter",
+        "value": "#F2F2F2",
+        "type": "color"
+      },
+      "light": {
+        "description": "Neutral Light",
+        "value": "#E5E5E5",
+        "type": "color"
+      },
+      "dark": {
+        "description": "Neutral Dark",
+        "value": "#666666",
+        "type": "color"
+      },
+      "backdrop": {
+        "description": "Neutral Backdrop",
+        "value": "rgba(155, 155, 155, 0.9)",
+        "type": "color"
+      }
+    },
+    "alert": {
+      "danger": {
+        "description": "Alert Danger",
+        "value": "#CC2929",
+        "type": "color"
+      },
+      "danger-dark": {
+        "description": "Alert Danger Dark",
+        "value": "#801919",
+        "type": "color"
+      },
+      "warning": {
+        "description": "Alert Warning",
+        "value": "#E58A00",
+        "type": "color"
+      },
+      "warning-dark": {
+        "description": "Alert Warning Dark",
+        "value": "#B26B00",
+        "type": "color"
+      },
+      "success": {
+        "description": "Alert Success",
+        "value": "#3DCC9C",
+        "type": "color"
+      },
+      "success-dark": {
+        "description": "Alert Success Dark",
+        "value": "#2E9975",
+        "type": "color"
+      },
+      "information": {
+        "description": "Alert Information",
+        "value": "#3764DC",
+        "type": "color"
+      },
+      "information-dark": {
+        "description": "Alert Information Dark",
+        "value": "#373C64",
+        "type": "color"
+      }
+    },
+    "tag": {
+      "external": {
+        "description": "Tag External",
+        "value": "#7F2EE5",
+        "type": "color"
+      },
+      "external-dark": {
+        "description": "Tag External Dark",
+        "value": "#391466",
+        "type": "color"
+      },
+      "danger": {
+        "description": "Tag Danger",
+        "value": "#CC2929",
+        "type": "color"
+      },
+      "danger-dark": {
+        "description": "Tag Danger Dark",
+        "value": "#801919",
+        "type": "color"
+      },
+      "warning": {
+        "description": "Tag Warning",
+        "value": "#E58A00",
+        "type": "color"
+      },
+      "warning-dark": {
+        "description": "Tag Warning Dark",
+        "value": "#B26B00",
+        "type": "color"
+      },
+      "success": {
+        "description": "Tag Success",
+        "value": "#3DCC9C",
+        "type": "color"
+      },
+      "success-dark": {
+        "description": "Tag Success Dark",
+        "value": "#2E9975",
+        "type": "color"
+      },
+      "accent": {
+        "description": "Tag Accent",
+        "value": "#333333",
+        "type": "color"
+      },
+      "accent-medium": {
+        "description": "Tag Accent Medium",
+        "value": "#666666",
+        "type": "color"
+      }
+    },
+    "status": {
+      "01": {
+        "description": "Status 01",
+        "value": "#3764DC",
+        "type": "color"
+      },
+      "02": {
+        "description": "Status 02",
+        "value": "#E58A00",
+        "type": "color"
+      },
+      "03": {
+        "description": "Status 03",
+        "value": "#CC2929",
+        "type": "color"
+      },
+      "04": {
+        "description": "Status 04",
+        "value": "#3DCC9C",
+        "type": "color"
+      },
+      "01-text": {
+        "value": "{color.constant.light}",
+        "type": "color",
+        "description": "Status 01 Text"
+      },
+      "02-text": {
+        "value": "{color.constant.dark}",
+        "type": "color",
+        "description": "Status 02 Text"
+      },
+      "03-text": {
+        "value": "{color.constant.light}",
+        "type": "color",
+        "description": "Status 03 Text"
+      },
+      "04-text": {
+        "value": "{color.constant.dark}",
+        "type": "color",
+        "description": "Status 04 Text"
+      }
+    }
+  },
+  "z-index": {
+    "max": {
+      "value": "999999",
+      "description": "max",
+      "type": "other"
+    }
+  }
+}
